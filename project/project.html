@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="project.js" defer></script>
+  </head>
+  <body>
+    <div class="div1">
+      <form name="form">
+        <div class="display">
+          <input type="text" value="0" id="display" />
+        </div>
+        <div class="buttons">
+          <div class="row">
+            <input type="button" onclick="add()" value="+" />
+            <input type="button" onclick="sub()" value="-" />
+            <input type="button" onclick="mul()" value="*" />
+            <input type="button" onclick="div()" value="/" />
+            <input type="button" onclick="sin()" value="sin" />
+            <input type="button" onclick="cos()" value="cos" />
+            <input type="button" onclick="tan()" value="tan" />
+            <input type="button" onclick="cleanAll()" value="c" />
+
+
+
+          </div>
+        
+          <div class="row uprow">
+            <p>result:</p>
+            <span id="result">0</span>
+          </div>
+          <div>
+            <span id="log"></span>
+            <br>
+          </div>
+
+        </div>
+      </form>
+    </div>
+   
+  </body>
+</html>
